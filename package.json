@@ -1,0 +1,41 @@
+{
+  "name": "rack-qs",
+  "version": "0.0.1",
+  "description": "rack-qs encodes an object into query string params that Rack applications can decode.",
+  "main": "dist/rack-qs.js",
+  "module": "src/index.js",
+  "dependencies": {
+    "jquery-param": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criles25/rack-qs.git"
+  },
+  "keywords": [
+    "rails",
+    "ruby",
+    "rack",
+    "ruby on rails",
+    "query string",
+    "params",
+    "parameters"
+  ],
+  "author": "criles25",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/criles25/rack-qs/issues"
+  },
+  "homepage": "https://github.com/criles25/rack-qs#readme"
+}
